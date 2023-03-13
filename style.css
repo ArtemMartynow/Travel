@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: #E9E7E7;
+}
+
+button {
+    padding: 20px 57px;
+    font-size: 21px;
+    border: 3px solid rgba(35, 35, 35, 1);
+    border-radius: 5px;
+    font-weight: 900;
+    background: rgba(35, 35, 35, 1);
+    transition: all 0.2s;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #E9E7E7;
+    color: rgba(35, 35, 35, 1);
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 77px 131px 124px 112px;
+    align-items: center;
+}
+
+/* nav-link */
+
+.nav-link {
+    width: 458px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #878789;
+    width: 70px;
+}
+
+.nav-link a:hover {
+    font-weight: bold;
+    color: rgba(35, 35, 35, 1);
+}
