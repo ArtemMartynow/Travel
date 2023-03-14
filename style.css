@@ -166,6 +166,11 @@ header {
     text-align: center;
 }
 
+.see-places-title {
+    margin-bottom: 270px;
+    margin-top: 61px;
+}
+
 .see-places-title h2 {
     font-size: 97px;
     width: 777px;
@@ -182,5 +187,5 @@ header {
 
 .see-places-title p {
     font-size: 25px;
-    
+    margin-top: 63px;
 }
