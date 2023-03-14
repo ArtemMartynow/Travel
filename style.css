@@ -159,3 +159,28 @@ header {
     background: RGBA(35, 35, 35, 1);
     margin: 28px 0;
 }
+
+/* see-places */
+
+.see-places {
+    text-align: center;
+}
+
+.see-places-title h2 {
+    font-size: 97px;
+    width: 777px;
+    height: 199px;
+    margin: 0 auto;
+    line-height: 97px;
+}
+
+.see-places-title span {
+    text-decoration: underline 5px;
+    font-style: italic;
+    text-underline-offset: 15px;
+}
+
+.see-places-title p {
+    font-size: 25px;
+    
+}
