@@ -125,3 +125,37 @@ header {
 .create-a-memory button {
     border-color: #E9E7E7;
 }
+
+/* pictures */
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 165px 100px 400px 100px;
+}
+
+.picture img {
+    width: 396px;
+    height: 270px;
+}
+
+.picture h2 {
+    font-size: 37px;
+    width: 231px;
+    height: 63px;
+    line-height: 37px;
+    margin-bottom: 36px;
+}
+
+.picture p {
+    font-size: 17px;
+    width: 396px;
+    height: 78px;
+}
+
+.line {
+    width: 55px;
+    height: 3px;
+    background: RGBA(35, 35, 35, 1);
+    margin: 28px 0;
+}
