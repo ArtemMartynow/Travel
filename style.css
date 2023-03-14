@@ -71,6 +71,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 131px 159px 112px;
+    color: #232323;
 }
 
 .home-page img {
@@ -93,4 +94,34 @@ header {
     height: 60px;
     margin-top: 34px;
     margin-bottom: 43px;
+}
+
+/* create-a-memory */
+
+.create-a-memory {
+    background: #232323;
+    color: #fff;
+    text-align: center;
+    padding: 52px 0;
+}
+
+.create-a-memory h2 {
+    font-size: 55px;
+    width: 438px;
+    height: 98px;
+    line-height: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.create-a-memory p {
+    width: 448px;
+    height: 56px;
+    text-align: center;
+    margin: 35px auto;
+    
+}
+
+.create-a-memory button {
+    border-color: #E9E7E7;
 }
