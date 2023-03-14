@@ -3,6 +3,16 @@ body {
     background: #E9E7E7;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+}
+
 button {
     padding: 20px 57px;
     font-size: 21px;
@@ -13,6 +23,8 @@ button {
     transition: all 0.2s;
     color: #fff;
     cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    line-height: 16px;
 }
 
 button:hover {
@@ -42,9 +54,12 @@ header {
     font-size: 21px;
     color: #878789;
     width: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .nav-link a:hover {
     font-weight: bold;
     color: rgba(35, 35, 35, 1);
 }
+
