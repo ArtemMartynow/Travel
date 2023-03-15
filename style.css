@@ -227,3 +227,36 @@ header {
 #sp-content-right-img {
     height: 325px;
 }
+
+/* choose-anywhere */
+
+.choose-anywhere {
+    background: #232323;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 155px 0 155px 120px;
+}
+
+.choose-anywhere-content h2 {
+    font-size: 55px;
+    width: 456px;
+    line-height: 50px;
+}
+
+.description h3{
+    width: 219px;
+    font-size: 25px;
+}
+
+.description p {
+    font-size: 17px;
+    width: 477px;
+    text-align: justify;
+}
+
+.up-description {
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
