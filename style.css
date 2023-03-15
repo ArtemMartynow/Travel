@@ -260,3 +260,45 @@ header {
     margin-top: 110px;
     margin-bottom: 60px;
 }
+
+/* section-six */
+
+.section-six {
+    display: flex;
+    justify-content: space-between;
+    padding: 176px 113px 313px 113px;
+}
+
+.section-six img {
+    height: 515px;
+}
+
+.section-six-content {
+    width: 741px;
+}
+
+.section-six-content h2 {
+    font-size: 81px;
+    line-height: 81px;
+    margin-bottom: 85px;
+}
+
+.subsection {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid #232323;
+    padding: 21px 43px;
+    width: 655px;
+}
+
+.down-subsection {
+    border-bottom: 4px solid #232323;
+}
+
+.subsection p {
+    font-size: 17px;
+}
+
+.subsection img {
+    height: 21px;
+}
