@@ -189,3 +189,41 @@ header {
     font-size: 25px;
     margin-top: 63px;
 }
+
+/* see-places-content */
+
+.see-places-content {
+    display: grid;
+    grid-template-columns: 47% 19% 20%;
+    grid-template-rows: 42% 51%;
+    grid-gap: 6% 3%;
+    padding: 0 115px;
+}
+
+.see-places-content h2 {
+    font-size: 37px;
+    width: 237px;
+    height: 235px;
+    text-align: left;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    text-decoration-skip-ink: none;
+    grid-column: 2;
+}
+
+.see-places-content p {
+    width: 335px;
+    height: 182px;
+    text-align: left;
+    font-size: 17px;
+}
+
+#sp-content-letf-img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 775px;
+}
+
+#sp-content-right-img {
+    height: 325px;
+}
