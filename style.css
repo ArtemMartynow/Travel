@@ -302,3 +302,118 @@ header {
 .subsection img {
     height: 21px;
 }
+
+/* customers */
+
+.customers {
+    text-align: center;
+    position: relative;
+}
+
+.customers h2 {
+    font-size: 81px;
+    width: 630px;
+    height: 173px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 81px;
+    margin-bottom: 46px;
+}
+ 
+/* btns-slider */
+
+.btns-slider {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 28%;
+    left: 5%;
+    width: 90%;
+}
+
+.arrow-left {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    border-left: 4px solid #000;
+    border-top: 4px solid #000;
+    transform: rotate(-45deg);
+    margin-left: 26px;
+}
+.arrow-left div {
+    width: 38px;
+    height: 3px;
+    background: #000;
+    transform: rotate(45deg);
+    margin-top: 11px;
+    margin-left: -6px;
+}
+
+.arrow-right {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
+    transform: rotate(-45deg);
+    margin: 0 auto;
+}
+.arrow-right div {
+    width: 38px;
+    height: 3px;
+    background: #000;
+    transform: rotate(45deg);
+    margin-top: 9px;
+    margin-left: -9px;
+}
+
+.btn-slider {
+    width: 82px;
+    height: 72px;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background: #E9E7E7;
+}
+
+/* customer */
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 113px;
+    margin-bottom: 198px;
+}
+
+.customer {
+    border: 3px solid RGBA(35, 35, 35, 1);
+    width: 388px;
+    height: 347px;
+    padding-top: 76px;
+    border-radius: 15px;
+}
+
+.customer img {
+    width: 135px;
+}
+
+.customer h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.customer p {
+    color: #6D6D6D;
+    font-size: 16px;
+    text-align: justify;
+    width: 327px;
+    margin: 0 auto;
+}
+
+.customer p span {
+    margin-left: calc(50% - 142px);
+}
