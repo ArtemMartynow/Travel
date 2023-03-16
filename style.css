@@ -419,3 +419,66 @@ header {
 .customer p span {
     margin-left: calc(50% - 142px);
 }
+
+/* be-updated */
+
+.be-updated {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 114px;
+    margin-bottom: 214px;
+}
+
+.be-updated img {
+    height: 730px;
+}
+
+/* .be-updated-content */
+
+.be-updated-content {
+    text-align: center;
+    width: 458px;
+}
+
+.be-updated-content h2 {
+    font-size: 81px;
+    height: 91px;
+    width: 434px;
+    line-height: 87px;
+    margin-bottom: 36px;
+}
+
+.be-updated-content input {
+    width: 420px;
+    height: 55px;
+    display: block;
+    border: 3px solid RGBA(35, 35, 35, 1);
+    border-radius: 10px;
+    font-size: 20px;
+    color: #232323;
+    padding-left: 31px;
+    margin-bottom: 23px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.be-updated-content textarea {
+    border: 3px solid RGBA(35, 35, 35, 1);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #232323;
+    padding-left: 31px;
+    padding-top: 23px;
+    resize: none;
+    width: 420px;
+    height: 197px;
+    display: block;
+    margin-bottom: 58px;
+}
+
+.be-updated-content button {
+    width: 454px;
+    padding: 23px 57px;
+}
