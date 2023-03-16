@@ -340,6 +340,7 @@ header {
     transform: rotate(-45deg);
     margin-left: 26px;
 }
+
 .arrow-left div {
     width: 38px;
     height: 3px;
@@ -358,6 +359,7 @@ header {
     transform: rotate(-45deg);
     margin: 0 auto;
 }
+
 .arrow-right div {
     width: 38px;
     height: 3px;
